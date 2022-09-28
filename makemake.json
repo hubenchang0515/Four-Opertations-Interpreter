@@ -1,0 +1,29 @@
+{
+    "targets": [
+        {
+            "name": "Four-Opertations-Interpreter",
+            "type": "executable",
+            "cc": "gcc",
+            "cxx": "g++",
+            "cflags": "-O2 -W -Wall -std=c99",
+            "cxxflags": "-O2 -W -Wall",
+            "ar": "ar",
+            "arflags": "rcs",
+            "libs": "",
+            "install": "",
+            "uninstall": "",
+            "cmd": "",
+            "sources": [
+                "ast.c",
+                "executor.c",
+                "lexer.c",
+                "main.c",
+                "parser.c",
+                "strings.c",
+                "token.c",
+                "vector.c"
+            ],
+            "depends": []
+        }
+    ]
+}
